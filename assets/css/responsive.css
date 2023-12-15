@@ -1,0 +1,310 @@
+/*---- Responsive CSS Start ----*/
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1366px) {}
+@media (max-width: 1024px) {
+    
+}
+@media (min-width: 992px) {
+    .hideMe {
+        display: none;
+    }
+    .openMenu {
+        display: none;
+    }
+
+}
+@media (max-width: 991px) {
+    header  .myNav .closeMe {
+        display: flex;
+        z-index: 9999;
+        width: fit-content;
+        top: 10px;
+        right: 20px;
+        position: absolute;
+      }
+      header  .myNav ul {
+        display: block !important;
+      }
+    
+      header  .myNav ul li {
+        /* display: flex; */
+        padding: 10px 0;
+        color: black;
+        justify-content: center;
+        width: 100%;
+    }
+    header .headerwrap .sass_mainbtn {
+    margin: 10px 10px 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    background: var(--primary);
+}
+    header  .myNav.active {
+      visibility: visible;
+      left: 0;
+      opacity: 1;
+      display: block;
+    }
+
+    .hideMe {
+    border: none  !important;
+    background: no-repeat;
+    background: #e3e3e3;
+    padding: 7px;
+    border-radius: 30px;
+}
+    header  .myNav ul li a {color: black !important;}
+    header  .myNav {
+      transition: 0.3s;
+      align-items: unset !important;
+      display: unset;
+      justify-content: center !important;
+      top: 0;
+      padding: 40px 0 0 0;
+      visibility: hidden;
+      left: -100%;
+      position: fixed;
+      opacity: 0;
+      width: 100%;
+      background: white;
+      height: 100%;
+      z-index: 999;
+    }
+    .main_btn a {
+    height: 40px;
+    font-size: 14px;
+}
+    .banner_img .Sass_hero p {
+    font-size: 12px;
+    line-height: 22px;
+}
+   .banner_img .Sass_hero h1 {
+    font-size: 26px;
+    line-height: 36px;
+}
+}
+@media (max-width: 768px) {}
+@media (max-width: 767px) {
+    .login_wrap ul li {
+        padding: 0 18px;
+    }
+    .about_us ul li a {
+    font-size: 12px;
+}
+    .about_us h1 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+}
+.about_us {
+    height: 320px;
+}
+.sass_structure .active_community .active_followers h3 {
+    font-size: 28px;
+    line-height: 37px;
+}
+.sass_structure .active_community .active_followers p {
+    font-size: 12px;
+}
+.sass_structure .active_community {
+    padding: 14px 15px;
+}
+.sass_structure figure img {
+    padding: 30px 0 0 30px;
+    height: 360px;
+}
+.main_wrapppadd {
+    padding: 50px 0;
+}
+.heading_wrap {
+    margin: 0 0 22px;
+}
+.heading_center_wrap {
+    width: 100%;
+} 
+.heading_center_wrap {padding: 0 0 25px;}
+.heading_center_wrap h2 {
+    font-size: 22px;
+    line-height: 34px;
+}
+.heading_center_wrap p {
+    font-size: 17px;
+    line-height: 27px;
+}
+.heading_wrap h2{
+    font-size: 22px;
+    line-height: 34px;
+}
+.heading_wrap p {
+    font-size: 17px;
+    line-height: 27px;
+}
+    .google_aboutus .excal_bttom {
+    padding: 30px 0 20px;
+}
+.google_aboutus ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.google_aboutus ul .classtop {
+    top: 0;
+}
+    .google_aboutus .excal_bttom .google_grid figure {
+    margin: 0;
+}
+.google_aboutus ul .google_grid figure {
+    margin: 0;
+    width: 90px;
+    padding: 10px 10px;
+}
+    .google_aboutus ul li figure {
+    width: 90px;
+    padding: 13px 12px;
+}
+    .google_aboutus ul li figure img {
+    width: 60px;
+    height: 60px;
+}
+.testback .heading_wrap {
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+.footer_wrap .col-md-4 {
+    padding: 20px 0px 30px;
+    background: #EFEFFF;
+}
+.footer_wrap .footer_newsletterwrap {
+    padding: 0px 40px 0 29px;
+}
+.footer_wrap .col-md-8 {
+    padding: 30px 0px 40px 30px;
+}
+.footer_wrap .footer_back_links .footer_box ul li {
+    padding: 4px 0;
+}
+.footer_wrap .footer_back_links .footer_box ul {
+    padding: 3px 0 15px;
+}
+.footer_box .footerinquiry {
+    margin: 17px 0 0;
+}
+.footer_newsletterwrap .social_media img {
+    width: 33px;
+}
+.testimonails .item .testimonails_wrap p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.main_wrapppaddclor {
+    padding: 50px 0;
+}
+.main_Heading p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+.main_Heading h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+.addCard {
+    margin: 21px 0;
+}
+.addCard figure img {
+    width: 25px;
+}
+.contactForm .contFlex input {
+    height: 40px;
+}
+.addCard figure {
+    width: 44px;
+    height: 44px;}
+    .contactForm {
+        padding: 30px 20px;
+}
+.contactForm .contFlex textarea {
+    height: 96px;
+}
+    .workwith_box a {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 0 10px;
+}
+    .workwith_box p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.workwith_box {
+    padding: 20px 14px;
+    margin: 0 0 20px;
+}
+.workwith_boxpost {
+    margin: 0 0 20px;
+}
+.bluid_sass figure img {
+    height: 288px;
+    object-fit: fill;
+}
+.progress_sass {
+    padding: 30px 0 0;
+}
+.services_box h4 {
+    margin: 0 0 12px;
+}
+    .services_box {
+    margin: 0 0 20px;
+    padding: 30px;
+}
+    .services_box a img {
+    width: 40px;
+}
+.services_box h6 {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 10px 0 0;
+}
+.customers_follow .follow_community h3 {
+    font-size: 31px;
+    line-height: 31px;
+}
+.customers_follow .follow_community p {
+    font-size: 13px;
+    line-height: 23px;
+}
+    .testimonails .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+    .customer_pics img {
+    height: 270px;
+    object-fit: cover;
+}
+    .customers_follow ul li {
+    font-size: 14px;
+    line-height: 24px;
+}
+.hero_dash  img{
+    margin: 10px 0 0;
+    height: 260px !important;
+    object-fit: fill;
+}
+.banner_img .mainslider .item figure img {
+    height: 100vh;
+}
+}
+@media (min-width: 576px) {
+    body{
+        line-height: 1.6;;
+        font-size: 14px;
+    }
+    .openMenu {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    }
+}
