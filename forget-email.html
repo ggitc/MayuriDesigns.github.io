@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <section class="main_wrapp">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <form action="/action_page.php" method="post">
+            <div class="Login_page">
+              <h2>Forgot password</h2>
+              <p>Enter your email for the verification proccess,we will send 4 digits code to your email.</p>
+              <div class="password-container">
+                <label for="">E mail</label>
+                <input type="email" class="password-input" id="passwordInput" placeholder="Enter email">
+         
+              </div> 
+             <a href="Verification.html"> <button type="submit">Continue</button></a>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const passwordInput = document.getElementById('passwordInput');
+    const togglePassword = document.getElementById('togglePassword');
+  
+    togglePassword.addEventListener('click', () => {
+      const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+      passwordInput.setAttribute('type', type);
+      togglePassword.innerHTML = type === 'password' ? '&#128065;' : '&#128064;';
+    });
+  </script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

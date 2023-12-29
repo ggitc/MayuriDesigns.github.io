@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <title>Side</title>
+  <!-- CSS Start -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+  <nav>
+    <div class="logo-name">
+      <div class="logo-image">
+        <img src="images/logo.png" alt="">
+      </div>
+
+      <span class="logo_name">LOGO</span>
+    </div>
+
+    <div class="menu-items">
+      <ul class="nav-links">
+        <li><a href="#">
+            <i class="uil uil-estate"></i>
+            <span class="link-name">Dahsboard</span>
+          </a></li>
+        <li><a href="#">
+            <i class="uil uil-files-landscapes"></i>
+            <span class="link-name">Content</span>
+          </a></li>
+        <li><a href="#">
+            <i class="uil uil-chart"></i>
+            <span class="link-name">Analytics</span>
+          </a></li>
+        <li><a href="#">
+            <i class="uil uil-thumbs-up"></i>
+            <span class="link-name">Like</span>
+          </a></li>
+        <li><a href="#">
+            <i class="uil uil-comments"></i>
+            <span class="link-name">Comment</span>
+          </a></li>
+        <li><a href="#">
+            <i class="uil uil-share"></i>
+            <span class="link-name">Share</span>
+          </a></li>
+      </ul>
+
+      <ul class="logout-mode">
+        <li><a href="#">
+            <span class="link-name"> <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <i class="uil uil-signout"></i> Logout
+              </button></span>
+
+          </a></li>
+
+        <li class="mode">
+          <a href="#">
+            <i class="uil uil-moon"></i>
+            <span class="link-name">Dark Mode</span>
+          </a>
+
+          <div class="mode-toggle">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Are You Sure</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer dash_btn">
+          <button type="button" class="cancel btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class=" btn btn-primary">Logout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="dashboard">
+    <div class="top">
+      <i class="uil uil-bars sidebar-toggle"></i>
+
+      <div class="search-box">
+        <i class="uil uil-search"></i>
+        <input type="text" placeholder="Search here...">
+      </div>
+      <span class="corner_top">
+        <img src="assets/images/icons/notification (1).svg" alt="">
+        <img src="assets/images/icons/setting (1).svg" alt="">
+        <img src="assets/images/profile.jpg" alt=""> </span>
+    </div>
+
+
+    <div class=" container_wrap">
+      <!--TABLE  -->
+      <div class="dashboard_section">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="dash_bodypadd">
+              <div class="card_heading card_add">
+                <h3>input Component</h3>
+              </div>
+              <div class="upload_setting">
+                <div class="Upload_field">
+                  <strong>
+                    <label for="uname">Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" required=""></strong>
+                </div>
+                <div class="Upload_field">
+                  <strong>
+                    <label for="uname">Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" required=""></strong>
+                </div>
+              </div>
+              <div class="upload_setting">
+                <div class="Upload_field">
+                  <strong>
+                    <label for="uname">Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" required=""></strong>
+                </div>
+              </div>
+              <div class="upload_setting">
+                <div class="Upload_field">
+                  <strong>
+                    <label for="uname">Username</label>
+                    <textarea name="" id="" placeholder="Describe"></textarea>
+                </div>
+              </div>
+              <div class="dash_btn">
+                <button>Primary button</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="dashboard_section">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="dash_bodypadd">
+              <div class="card_heading card_add">
+                <h3>Profile Edit</h3>
+              </div>
+            
+              <!--  -->
+              <div class="col-md-5">
+              <div class="calendar">
+                <div class="front">
+                  <div class="current-date">
+                    <h1>Friday 15th</h1>
+                    <h1>January 2016</h1> 
+                  </div>
+        
+                  <div class="current-month">
+                    <ul class="week-days">
+                      <li>MON</li>
+                      <li>TUE</li>
+                      <li>WED</li>
+                      <li>THU</li>
+                      <li>FRI</li>
+                      <li>SAT</li>
+                      <li>SUN</li>
+                    </ul>
+        
+                    <div class="weeks">
+                      <div class="first">
+                        <span class="last-month">28</span>
+                        <span class="last-month">29</span>
+                        <span class="last-month">30</span>
+                        <span class="last-month">31</span>
+                        <span>01</span>
+                        <span>02</span>
+                        <span>03</span>
+                      </div>
+        
+                      <div class="second">
+                        <span>04</span>
+                        <span>05</span>
+                        <span class="event">06</span>
+                        <span>07</span>
+                        <span>08</span>
+                        <span>09</span>
+                        <span>10</span>
+                      </div>
+        
+                      <div class="third">
+                        <span>11</span>
+                        <span>12</span>
+                        <span>13</span>
+                        <span>14</span>
+                        <span class="active">15</span>
+                        <span>16</span>
+                        <span>17</span>
+                      </div>
+        
+                      <div class="fourth">
+                        <span>18</span>
+                        <span>19</span>
+                        <span>20</span>
+                        <span>21</span>
+                        <span>22</span>
+                        <span>23</span>
+                        <span>24</span>
+                      </div>
+        
+                      <div class="fifth">
+                        <span>25</span>
+                        <span>26</span>
+                        <span>27</span>
+                        <span>28</span>
+                        <span>29</span>
+                        <span>30</span>
+                        <span>31</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="back">
+                  <input placeholder="What's the event?">
+                  <div class="info">
+                    <div class="date">
+                      <p class="info-date">
+                      Date: <span>Jan 15th, 2016</span>
+                      </p>
+                      <p class="info-time">
+                        Time: <span>6:35 PM</span>
+                      </p>
+                    </div>
+                    <div class="address">
+                      <p>
+                        Address: <span>129 W 81st St, New York, NY</span>
+                      </p>
+                    </div>
+                    <div class="observations">
+                      <p>
+                        Observations: <span>Be there 15 minutes earlier</span>
+                      </p>
+                    </div>
+                  </div>
+        
+                  <div class="actions">
+                    <button class="save">
+                      Save <i class="ion-checkmark"></i>
+                    </button>
+                    <button class="dismiss">
+                      Dismiss <i class="ion-android-close"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- RADIO -->
+<div class="dashboard_section">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="dash_bodypadd">
+        <div class="card_heading card_add">
+          <h3>input Component</h3>
+          <div class="ratiobtn">
+          <label>
+            <input type="radio" name="gender" value="other">
+            Other
+          </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dashboard_section">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="dash_bodypadd">
+        <div class="card_heading card_add">
+          <h3>input Component</h3>
+          <div class="ratiobtn">
+            <label class="toggle-container">
+              <input type="checkbox" class="toggle-input">
+              <span class="toggle-label">
+                <span class="toggle-slider"></span>
+              </span>
+            </label>
+          <label>
+            <input type="radio" name="gender" value="other">
+            Other
+          </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+    integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/jquery-3.6.3.min.js "></script>
+  <script src="assets/js/bootstrap.min.js "></script>
+  <script src="assets/js/owl.carousel.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="assets/js/timer-script.js "></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
